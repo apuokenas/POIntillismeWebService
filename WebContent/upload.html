@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="US-ASCII">
+  <title>POIntillisme Web Service</title>
+</head>
+<body>
+<h1>POI File Upload with Jersey</h1>
+<form action="http://127.0.0.1:8080/lt.tumenas.pointillisme.ws/api/poi/upload"
+      method="post" enctype="multipart/form-data">
+  <p>
+    Select a file: <input type="file" name="file" size="45"/>
+  </p>
+  <!-- Form input with an associated label -->
+  <label>
+    Enter POI JSON
+    <textarea rows="4" name="poi" cols="50"></textarea>
+  </label>
+  <input type="submit" value="Upload"/>
+</form>
+</body>
+</html>
