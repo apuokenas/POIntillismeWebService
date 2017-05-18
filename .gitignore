@@ -1,29 +1,135 @@
-############
-### Java ###
-############
+#############
+### Linux ###
+#############
 
-# Compiled class file
-*.class
+*~
 
-# Log file
-*.log
+# Temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-# BlueJ files
-*.ctxt
+# KDE directory preferences
+.directory
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
-# Virtual machine crash logs, see at http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#############
+### macOS ###
+#############
+
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+###############
+### Windows ###
+###############
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+###############
+### Eclipse ###
+###############
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configuration"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+## Eclipse Patch ##
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
 
 #####################
 ### IntelliJ IDEA ###
@@ -82,63 +188,29 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
-###############
-### Eclipse ###
-###############
+############
+### Java ###
+############
 
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
+# Compiled class file
+*.class
 
-# External tool builders
-.externalToolBuilders/
+# Log file
+*.log
 
-# Locally stored "Eclipse launch configuration"
-*.launch
+# BlueJ files
+*.ctxt
 
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# CDT-specific (C/C++ Development Tooling)
-.cproject
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific (PHP Development Tools)
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# Tern plugin
-.tern-project
-
-# TeXlipse plugin
-.texlipse
-
-# STS (Spring Tool Suite)
-.springBeans
-
-# Code Recommenders
-.recommenders/
-
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
-
-## Eclipse Patch ##
-# Eclipse Core		
-.project
-
-# JDT-specific (Eclipse Java Development Tools)		
-.classpath
+# Virtual machine crash logs, see at http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

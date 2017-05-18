@@ -14,7 +14,9 @@ public class JAXBContextResolver implements ContextResolver<JAXBContext> {
   private Class[] types = {POIConverter.class};
 
   public JAXBContextResolver() throws Exception {
-    this.context = new JSONJAXBContext(JSONConfiguration.mapped().arrays("pois").build(), types);
+    this.context = new JSONJAXBContext(
+      JSONConfiguration.mapped().arrays("pois").build(),
+      types);
 
   }
 
@@ -24,6 +26,7 @@ public class JAXBContextResolver implements ContextResolver<JAXBContext> {
         return context;
       }
     }
+
     return null;
   }
 
